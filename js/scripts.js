@@ -74,7 +74,6 @@ $(document).ready(function(){
       $("span#resultCup").text(resultTwo);
     });
   });
-
   $("button#buttonFour").click(function(){
     $("form#spoons").submit(function(event){
       event.preventDefault();
