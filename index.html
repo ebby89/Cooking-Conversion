@@ -20,6 +20,7 @@
             <input id="liter" type="text">
             <button id="buttonOne" type="submit" name="gallons">Convert</button>
             <p>Gallons to Liters = <span id="resultGallon"></span></p>
+            <p id="gformula">SHOW ME THE CONVERSION!!!</p>
             <p>Liters to Gallons = <span id="resultLiter"></span></p>
           </form>
         </div>
@@ -61,6 +62,32 @@
             <p>Tablespoons to Teaspoons = <span id="resultTablespoon"></span></p>
           </form>
         </div>
+      </div>
+
+<!-- START OF RANDOM FORM THINGS -->
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="flavor" value="chocolate" checked>
+          Chocolate
+        </label>
+      </div>
+
+      <select class="form-control" id="beverage">
+        <option>Coffee</option>
+        <option>Tea</option>
+        <option>Kombucha</option>
+        <option>Water</option>
+      </select>
+
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
       </div>
 
     </div>     <!-- End of container -->

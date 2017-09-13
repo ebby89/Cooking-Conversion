@@ -41,6 +41,11 @@ $(document).ready(function(){
 
       var resultTwo = literToGal (number2);
       $("span#resultLiter").text(resultTwo);
+
+      $("span#resultGallon").click(function(event){
+        event.preventDefault();
+        $("#gformula").slideToggle();
+      });
     });
   });
 
@@ -82,5 +87,4 @@ $(document).ready(function(){
       $("span#resultTablespoon").text(resultTwo);
     });
   });
-
 });

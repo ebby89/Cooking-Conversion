@@ -1,0 +1,9 @@
+#gformula {
+  display: none;
+}
+
+#resultGallon:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
