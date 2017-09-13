@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cooking Conversions</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cooking Conversion Calculator</h1>
+
+      <div class="row"> <!-- ROW ONE -->
+        <div class="col-md-6">
+          <form id="gallonsLiters">
+            <label for="galLit">Gallon</label>
+            <input id="gallon" type="text">
+            <label for="galLit">Liter</label>
+            <input id="liter" type="text">
+            <button id="buttonOne" type="submit" name="gallons">Convert</button>
+            <p>Gallons to Liters = <span id="resultGallon"></span></p>
+            <p>Liters to Gallons = <span id="resultLiter"></span></p>
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <form id="lbsToOz">
+            <label for="lbs">Pounds</label>
+            <input id="lbs" type="text">
+            <label for="oz">Ounces</label>
+            <input id="oz" type="text">
+            <button id="buttonTwo" type="submit" name="ounces">Convert</button>
+            <p>Pounds to Ounces = <span id="resultPound"></span></p>
+            <p>Ounces to Pounds = <span id="resultOunce"></span></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="row"> <!-- ROW TWO -->
+        <div class="col-md-6">
+          <form id="cupsToPints">
+            <label for="cups">Cups</label>
+            <input id="cups" type="text">
+            <label for="pints">Pints</label>
+            <input id="pints" type="text">
+            <button id="buttonThree" type="submit" name="cups">Convert</button>
+            <p>Cups to Pints = <span id="resultPint"></span></p>
+            <p>Pints to Cups = <span id="resultCup"></span></p>
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <form id="spoons">
+            <label for="teasp">Teaspoon</label>
+            <input id="teasp" type="text">
+            <label for="tblsp">Tablespoon</label>
+            <input id="tblsp" type="text">
+            <button id="buttonFour" type="submit" name="spoons">Convert</button>
+            <p>Teaspoons to Tablespoons = <span id="resultTeaspoon"></span></p>
+            <p>Tablespoons to Teaspoons = <span id="resultTablespoon"></span></p>
+          </form>
+        </div>
+      </div>
+
+    </div>     <!-- End of container -->
+  </body>
+</html>
